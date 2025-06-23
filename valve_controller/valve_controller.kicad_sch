@@ -5489,10 +5489,6 @@
 		(uuid "60f40d81-4227-44e5-8974-66149801b146")
 	)
 	(no_connect
-		(at 29.21 219.71)
-		(uuid "64316654-d7f3-4ff4-b241-96b4bf7fd4f4")
-	)
-	(no_connect
 		(at 92.71 238.76)
 		(uuid "6567ab08-c82f-46a2-b5d7-be45a30e652c")
 	)
@@ -5503,10 +5499,6 @@
 	(no_connect
 		(at 316.23 127)
 		(uuid "744c8367-1619-4a62-8fe7-4ca0f818e0f9")
-	)
-	(no_connect
-		(at 29.21 222.25)
-		(uuid "76664c29-2839-44af-8a05-ae8e071f1064")
 	)
 	(no_connect
 		(at 63.5 69.85)
@@ -5686,6 +5678,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 39.37) (xy 101.6 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3cb75e-fc96-4426-a420-cacf89b2a25c")
+	)
+	(wire
+		(pts
 			(xy 46.99 241.3) (xy 60.96 241.3)
 		)
 		(stroke
@@ -5753,16 +5755,6 @@
 			(type default)
 		)
 		(uuid "3344d030-e2fe-4acd-a5bf-1da3a397cb22")
-	)
-	(wire
-		(pts
-			(xy 15.24 224.79) (xy 29.21 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34d17e70-3a75-4427-abb9-1ec0b4dca5a7")
 	)
 	(wire
 		(pts
@@ -5873,6 +5865,16 @@
 			(type default)
 		)
 		(uuid "45063428-c379-48e7-834c-b94004a6c12f")
+	)
+	(wire
+		(pts
+			(xy 24.13 217.17) (xy 29.21 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463119be-7c59-4405-9995-df27fd0988b5")
 	)
 	(wire
 		(pts
@@ -6026,6 +6028,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 224.79) (xy 29.21 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71bf2ad1-628c-45bc-8c38-e1fcdeeb9ae2")
+	)
+	(wire
+		(pts
 			(xy 93.98 52.07) (xy 101.6 52.07)
 		)
 		(stroke
@@ -6123,6 +6135,16 @@
 			(type default)
 		)
 		(uuid "83a4bbe7-612b-4dfa-9e03-5de0421f7652")
+	)
+	(wire
+		(pts
+			(xy 93.98 34.29) (xy 101.6 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ca0e1d-6695-4a3c-a750-65bade5c42db")
 	)
 	(wire
 		(pts
@@ -6263,6 +6285,16 @@
 			(type default)
 		)
 		(uuid "9aef8568-905b-4eec-aff1-4bd01ccdffb8")
+	)
+	(wire
+		(pts
+			(xy 15.24 219.71) (xy 29.21 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2b03fa-0f42-44b1-bc8e-2fb44cb2615a")
 	)
 	(wire
 		(pts
@@ -6513,16 +6545,6 @@
 			(type default)
 		)
 		(uuid "c9b8bead-d44a-4f0d-a852-454ed4b81b64")
-	)
-	(wire
-		(pts
-			(xy 15.24 217.17) (xy 29.21 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca1db843-088a-4d8d-87a3-6c9c5b338495")
 	)
 	(wire
 		(pts
@@ -6966,6 +6988,101 @@
 		)
 		(uuid "3b60df4d-4b51-4055-84dd-04c1e1cc1b55")
 	)
+	(text_box "Validate current consomation -> make sure LDO can supply current "
+		(exclude_from_sim no)
+		(at 102.87 151.13 0)
+		(size 69.85 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "479d2420-49b4-4075-9e6c-66a9f4c20ff3")
+	)
+	(text_box "Set diff address"
+		(exclude_from_sim no)
+		(at 102.87 113.03 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "86cab654-3f82-461b-88e5-a0ce0062ecb0")
+	)
+	(text_box "Check 0-10V logic"
+		(exclude_from_sim no)
+		(at 298.45 110.49 0)
+		(size 19.05 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f3b322df-99fa-4e3f-ba23-635031cb789f")
+	)
+	(text_box "Set diff address"
+		(exclude_from_sim no)
+		(at 298.45 106.68 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f5593b6a-dc1e-4f80-8622-f3fa2c90815a")
+	)
+	(text_box "Recheck"
+		(exclude_from_sim no)
+		(at 158.75 59.69 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fded8800-7248-43c7-9c47-597597c227e3")
+	)
 	(text "5V Regulator"
 		(exclude_from_sim no)
 		(at 165.608 57.912 0)
@@ -7088,7 +7205,6 @@
 	)
 	(label "MDIO"
 		(at 101.6 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7099,7 +7215,6 @@
 	)
 	(label "TXD1"
 		(at 101.6 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7110,7 +7225,6 @@
 	)
 	(label "ANOUT2_DAC1"
 		(at 360.68 158.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7121,7 +7235,6 @@
 	)
 	(label "ANOUT3_DAC1"
 		(at 110.49 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7132,7 +7245,6 @@
 	)
 	(label "AIN1_ADC1"
 		(at 46.99 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7143,7 +7255,6 @@
 	)
 	(label "RX_P"
 		(at 82.55 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7154,7 +7265,6 @@
 	)
 	(label "ANOUT2_DAC1"
 		(at 78.74 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7165,7 +7275,6 @@
 	)
 	(label "TXD1"
 		(at 29.21 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7176,7 +7285,6 @@
 	)
 	(label "TXEN"
 		(at 101.6 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7186,8 +7294,7 @@
 		(uuid "231c8ad3-f4f0-4dde-afd2-3f96a988fb4a")
 	)
 	(label "AIN0_ADC0"
-		(at 15.24 217.17 0)
-		(fields_autoplaced yes)
+		(at 15.24 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7198,7 +7305,6 @@
 	)
 	(label "AIN2_ADC1"
 		(at 78.74 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7209,7 +7315,6 @@
 	)
 	(label "SCL"
 		(at 152.4 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7220,7 +7325,6 @@
 	)
 	(label "AIN1_ADC1"
 		(at 166.37 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7231,7 +7335,6 @@
 	)
 	(label "SDA"
 		(at 311.15 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7242,7 +7345,6 @@
 	)
 	(label "SDA"
 		(at 152.4 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7252,8 +7354,7 @@
 		(uuid "2db0bbc1-f13a-4df8-954d-b0b220545a24")
 	)
 	(label "ESP_RX"
-		(at 115.57 39.37 180)
-		(fields_autoplaced yes)
+		(at 101.6 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7264,7 +7365,6 @@
 	)
 	(label "ESP_TX"
 		(at 20.32 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7275,7 +7375,6 @@
 	)
 	(label "TX_N"
 		(at 167.64 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7286,7 +7385,6 @@
 	)
 	(label "MDIO"
 		(at 29.21 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7297,7 +7395,6 @@
 	)
 	(label "TXEN"
 		(at 29.21 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7307,8 +7404,7 @@
 		(uuid "4568b0c9-0ab6-441f-8f03-c8d28381f8f1")
 	)
 	(label "ESP_TX"
-		(at 115.57 34.29 180)
-		(fields_autoplaced yes)
+		(at 101.6 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7319,7 +7415,6 @@
 	)
 	(label "SCL"
 		(at 204.47 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7330,7 +7425,6 @@
 	)
 	(label "TX_P"
 		(at 167.64 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7341,7 +7435,6 @@
 	)
 	(label "SCL"
 		(at 118.11 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7352,7 +7445,6 @@
 	)
 	(label "TXD0"
 		(at 101.6 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7363,7 +7455,6 @@
 	)
 	(label "TXD0"
 		(at 29.21 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7374,7 +7465,6 @@
 	)
 	(label "ANOUT0_DAC0"
 		(at 360.68 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7385,7 +7475,6 @@
 	)
 	(label "SCL"
 		(at 311.15 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7396,7 +7485,6 @@
 	)
 	(label "AIN2_ADC0"
 		(at 114.3 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7407,7 +7495,6 @@
 	)
 	(label "ANOUT1_DAC1"
 		(at 46.99 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7418,7 +7505,6 @@
 	)
 	(label "AIN2_ADC1"
 		(at 166.37 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7429,7 +7515,6 @@
 	)
 	(label "AIN3_ADC0"
 		(at 114.3 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7440,7 +7525,6 @@
 	)
 	(label "ANOUT3_DAC0"
 		(at 360.68 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7451,7 +7535,6 @@
 	)
 	(label "MDC"
 		(at 29.21 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7462,7 +7545,6 @@
 	)
 	(label "TX_N"
 		(at 82.55 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7473,7 +7555,6 @@
 	)
 	(label "ANOUT3_DAC0"
 		(at 110.49 224.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7484,7 +7565,6 @@
 	)
 	(label "AIN0_ADC1"
 		(at 166.37 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7495,7 +7575,6 @@
 	)
 	(label "AIN0_ADC1"
 		(at 15.24 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7506,7 +7585,6 @@
 	)
 	(label "AIN3_ADC1"
 		(at 166.37 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7517,7 +7595,6 @@
 	)
 	(label "RX_N"
 		(at 167.64 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7528,7 +7605,6 @@
 	)
 	(label "25MHZ"
 		(at 29.21 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7539,7 +7615,6 @@
 	)
 	(label "ESP_IO0"
 		(at 49.53 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7550,7 +7625,6 @@
 	)
 	(label "RXER"
 		(at 29.21 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7561,7 +7635,6 @@
 	)
 	(label "ESP_EN"
 		(at 20.32 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7572,7 +7645,6 @@
 	)
 	(label "REF_CLK"
 		(at 29.21 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7583,7 +7655,6 @@
 	)
 	(label "ANOUT0_DAC1"
 		(at 360.68 153.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7594,7 +7665,6 @@
 	)
 	(label "ANOUT3_DAC1"
 		(at 360.68 161.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7604,8 +7674,7 @@
 		(uuid "a9150d66-2e93-46dc-bb7f-b1d8171d5533")
 	)
 	(label "ANOUT0_DAC0"
-		(at 15.24 224.79 0)
-		(fields_autoplaced yes)
+		(at 15.24 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7616,7 +7685,6 @@
 	)
 	(label "RXER"
 		(at 101.6 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7627,7 +7695,6 @@
 	)
 	(label "ANOUT1_DAC0"
 		(at 46.99 224.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7638,7 +7705,6 @@
 	)
 	(label "MDC"
 		(at 114.3 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7649,7 +7715,6 @@
 	)
 	(label "SDA"
 		(at 118.11 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7660,7 +7725,6 @@
 	)
 	(label "AIN1_ADC0"
 		(at 46.99 217.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7671,7 +7735,6 @@
 	)
 	(label "RX_N"
 		(at 82.55 152.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7682,7 +7745,6 @@
 	)
 	(label "AIN3_ADC1"
 		(at 110.49 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7693,7 +7755,6 @@
 	)
 	(label "AIN1_ADC0"
 		(at 114.3 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7704,7 +7765,6 @@
 	)
 	(label "RGB_LED"
 		(at 17.78 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7715,7 +7775,6 @@
 	)
 	(label "ANOUT2_DAC0"
 		(at 360.68 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7726,7 +7785,6 @@
 	)
 	(label "ANOUT1_DAC1"
 		(at 360.68 156.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7737,7 +7795,6 @@
 	)
 	(label "TX_P"
 		(at 82.55 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7748,7 +7805,6 @@
 	)
 	(label "ANOUT2_DAC0"
 		(at 78.74 224.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7759,7 +7815,6 @@
 	)
 	(label "RXD0"
 		(at 29.21 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7770,7 +7825,6 @@
 	)
 	(label "SDA"
 		(at 204.47 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7781,7 +7835,6 @@
 	)
 	(label "AIN3_ADC0"
 		(at 110.49 217.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7792,7 +7845,6 @@
 	)
 	(label "ANOUT1_DAC0"
 		(at 360.68 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7803,7 +7855,6 @@
 	)
 	(label "AIN0_ADC0"
 		(at 114.3 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7814,7 +7865,6 @@
 	)
 	(label "SCL"
 		(at 311.15 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7825,7 +7875,6 @@
 	)
 	(label "ESP_EN"
 		(at 49.53 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7836,7 +7885,6 @@
 	)
 	(label "RGB_LED"
 		(at 115.57 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7847,7 +7895,6 @@
 	)
 	(label "CRS_DV"
 		(at 29.21 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7858,7 +7905,6 @@
 	)
 	(label "25MHZ"
 		(at 374.65 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7869,7 +7915,6 @@
 	)
 	(label "RX_P"
 		(at 167.64 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7880,7 +7925,6 @@
 	)
 	(label "CRS_DV"
 		(at 101.6 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7891,7 +7935,6 @@
 	)
 	(label "AIN2_ADC0"
 		(at 78.74 217.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7902,7 +7945,6 @@
 	)
 	(label "RXD0"
 		(at 115.57 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7913,7 +7955,6 @@
 	)
 	(label "ANOUT0_DAC1"
 		(at 15.24 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7924,7 +7965,6 @@
 	)
 	(label "RXD1"
 		(at 29.21 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7935,7 +7975,6 @@
 	)
 	(label "SDA"
 		(at 311.15 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7946,7 +7985,6 @@
 	)
 	(label "RXD1"
 		(at 115.57 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7957,7 +7995,6 @@
 	)
 	(label "ESP_RX"
 		(at 20.32 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10862,6 +10899,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 29.21 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b0ecbef-b837-450e-8968-8a5b91e30a1d")
+		(property "Reference" "#PWR44"
+			(at 29.21 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df03b797-fd0f-4acd-a4d6-e06718daa30b")
+		)
+		(instances
+			(project ""
+				(path "/fabe9bf5-ed03-4936-827e-530a8ad0c6d6"
+					(reference "#PWR44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SerialChiller-eagle-import:R-EU_R0603")
 		(at 104.14 64.77 270)
 		(unit 1)
@@ -13408,6 +13511,72 @@
 			(project "valve_controller"
 				(path "/fabe9bf5-ed03-4936-827e-530a8ad0c6d6"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 24.13 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e63a1e2c-47db-44eb-93a8-9e1010026d33")
+		(property "Reference" "#PWR43"
+			(at 24.13 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 24.13 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 24.13 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f01e90b9-ebbe-4907-8523-8f3a7a6271a3")
+		)
+		(instances
+			(project ""
+				(path "/fabe9bf5-ed03-4936-827e-530a8ad0c6d6"
+					(reference "#PWR43")
 					(unit 1)
 				)
 			)
