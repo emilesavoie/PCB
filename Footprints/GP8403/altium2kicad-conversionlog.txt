@@ -1,0 +1,15 @@
+Archive:  db/47726.zip
+  inflating: db/47726/GP8403-TC50-EW_C31520071_GP8403-TC50-EW_C3152007.schdoc  
+  inflating: db/47726/ESSOP-10_L4.9-W3.9-P1.00-LS6.0-BL-EP.pcbdoc  
+Loading GP8403-TC50-EW_C31520071_GP8403-TC50-EW_C3152007.schdoc
+Loading ESSOP-10_L4.9-W3.9-P1.00-LS6.0-BL-EP.pcbdoc
+Skipping ASCII .PcbDoc
+Done.
+No unpacked .PcbDoc documents found. Trying to unpack it:
+Loading GP8403-TC50-EW_C31520071_GP8403-TC50-EW_C3152007.schdoc
+Loading ESSOP-10_L4.9-W3.9-P1.00-LS6.0-BL-EP.pcbdoc
+Skipping ASCII .PcbDoc
+Done.
+There were no unpacked PcbDoc files found.
+Handling GP8403-TC50-EW_C31520071_GP8403-TC50-EW_C3152007.schdoc
+This could be oval or rounded rectangle
