@@ -1,0 +1,14 @@
+Archive:  db/47732.zip
+  inflating: db/47732/Sheet_1_2025-06-25.schdoc  
+  inflating: db/47732/ESOP-10_L4.9-W3.9-P1.00-LS6.0-BL-EP_2025-06-25 (1).pcbdoc  
+Loading Sheet_1_2025-06-25.schdoc
+Loading ESOP-10_L4.9-W3.9-P1.00-LS6.0-BL-EP_2025-06-25 (1).pcbdoc
+Skipping ASCII .PcbDoc
+Done.
+No unpacked .PcbDoc documents found. Trying to unpack it:
+Loading Sheet_1_2025-06-25.schdoc
+Loading ESOP-10_L4.9-W3.9-P1.00-LS6.0-BL-EP_2025-06-25 (1).pcbdoc
+Skipping ASCII .PcbDoc
+Done.
+There were no unpacked PcbDoc files found.
+Handling Sheet_1_2025-06-25.schdoc
