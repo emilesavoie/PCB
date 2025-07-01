@@ -182,6 +182,7 @@
         0.2,
         0.3,
         0.5,
+        0.8,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -486,7 +487,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "valve_controller.step",
       "svg": "",
       "vrml": ""
     },
