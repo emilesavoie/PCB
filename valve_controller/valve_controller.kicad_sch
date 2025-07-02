@@ -11680,6 +11680,72 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
+		(at 280.67 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e174fdd-ee4f-4ae8-b796-91ae32b779d0")
+		(property "Reference" "#PWR122"
+			(at 280.67 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 280.67 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 280.67 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7d90725-1362-4df1-b7cb-d43045ce8342")
+		)
+		(instances
+			(project ""
+				(path "/fabe9bf5-ed03-4936-827e-530a8ad0c6d6"
+					(reference "#PWR122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
 		(at 19.05 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16820,6 +16886,72 @@
 			(project "valve_controller"
 				(path "/fabe9bf5-ed03-4936-827e-530a8ad0c6d6"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 280.67 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69da9038-7ae7-4679-adf3-f9805dbc61ad")
+		(property "Reference" "#PWR123"
+			(at 280.67 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.67 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 280.67 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41cd3439-c6ce-426a-be28-a7e4f4c0ea4a")
+		)
+		(instances
+			(project ""
+				(path "/fabe9bf5-ed03-4936-827e-530a8ad0c6d6"
+					(reference "#PWR123")
 					(unit 1)
 				)
 			)
@@ -23385,6 +23517,76 @@
 			(project "valve_controller"
 				(path "/fabe9bf5-ed03-4936-827e-530a8ad0c6d6"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SerialChiller-eagle-import:R-EU_R0603")
+		(at 280.67 227.33 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd3bc90e-06b4-4d2a-9143-c3642b7184c1")
+		(property "Reference" "R10"
+			(at 279.146 225.806 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 283.718 225.044 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 280.67 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "428c169a-6ba4-48ac-bab0-c6edcc45af61")
+		)
+		(pin "2"
+			(uuid "6c9574dc-158f-4e79-bc54-57ee47aa355b")
+		)
+		(instances
+			(project "valve_controller"
+				(path "/fabe9bf5-ed03-4936-827e-530a8ad0c6d6"
+					(reference "R10")
 					(unit 1)
 				)
 			)
