@@ -1,0 +1,107 @@
+** Drc report for valve_controller.kicad_pcb **
+** Created on 2025-07-03T10:53:20-0400 **
+
+** Found 8 DRC violations **
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(211.8027 mm, 71.7723 mm): Segment [<no net>] on F.Cu
+    @(211.8027 mm, 71.7723 mm): PTH pad 1 [+24V] of J1
+[lib_footprint_mismatch]: Footprint 'ESP32-WROOM-32' does not match copy in library 'RF_Module'.
+    Local override; warning
+    @(219.3100 mm, 96.7500 mm): Footprint U2
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(69.1100 mm, 134.5600 mm): PTH pad 1 [GND] of 
+    @(69.1100 mm, 134.5600 mm): PTH pad 1 [GND] of REF**
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(139.4300 mm, 91.7000 mm): PTH pad 1 [GND] of 
+    @(139.4300 mm, 91.7000 mm): PTH pad 1 [GND] of REF**
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(139.4200 mm, 101.7500 mm): PTH pad 1 [GND] of 
+    @(139.4200 mm, 101.7500 mm): PTH pad 1 [GND] of REF**
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0811 mm)
+    Rule: board setup constraints edge; error
+    @(65.9250 mm, 55.7500 mm): Arc on Edge.Cuts
+    @(236.0750 mm, 55.7500 mm): Dimension '171.6500 mm' on In1.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(211.8027 mm, 71.7723 mm): PTH pad 1 [+24V] of J1
+    @(211.8027 mm, 71.7723 mm): Segment [<no net>] on F.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(158.6125 mm, 97.6125 mm): Track [+12V] on F.Cu, length 1.0430 mm
+
+** Found 3 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(199.0000 mm, 110.9000 mm): Track [GND] on F.Cu, length 1.0500 mm
+    @(195.0000 mm, 115.6500 mm): Pad 3 [GND] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(193.2250 mm, 66.9440 mm): Pad 3 [GND] of U8 on F.Cu
+    @(199.3000 mm, 69.3750 mm): Track [GND] on F.Cu, length 1.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(189.4500 mm, 120.5000 mm): Pad 3 [GND] of U3 on F.Cu
+    @(191.9250 mm, 127.2300 mm): PTH pad 4 [GND] of J2
+
+** Found 16 Footprint errors **
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(231.3900 mm, 58.9400 mm): Footprint REF**
+    @(231.3900 mm, 134.5700 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(139.4300 mm, 91.7000 mm): Footprint <no reference designator>
+    @(69.1100 mm, 134.5600 mm): Footprint <no reference designator>
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(139.4200 mm, 101.7500 mm): Footprint <no reference designator>
+    @(69.1100 mm, 134.5600 mm): Footprint <no reference designator>
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(139.4200 mm, 101.7500 mm): Footprint REF**
+    @(231.3900 mm, 134.5700 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(69.1100 mm, 58.9300 mm): Footprint REF**
+    @(231.3900 mm, 134.5700 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(139.4300 mm, 91.7000 mm): Footprint REF**
+    @(231.3900 mm, 134.5700 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(69.1100 mm, 134.5600 mm): Footprint REF**
+    @(231.3900 mm, 134.5700 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(231.3900 mm, 134.5700 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(69.1100 mm, 134.5600 mm): Footprint <no reference designator>
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(231.3900 mm, 58.9400 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(139.4300 mm, 91.7000 mm): Footprint <no reference designator>
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(139.4200 mm, 101.7500 mm): Footprint <no reference designator>
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(139.4200 mm, 101.7500 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(69.1100 mm, 58.9300 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(139.4300 mm, 91.7000 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(69.1100 mm, 134.5600 mm): Footprint REF**
+
+** End of Report **
